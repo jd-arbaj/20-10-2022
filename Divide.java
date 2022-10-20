@@ -4,7 +4,7 @@ public class Divide {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Devision : "+divide(3,0));
+		System.out.println("Devision : "+divide(18,0));
 		
 	}
 
@@ -17,7 +17,7 @@ public class Divide {
 	}
 		catch(ArithmeticException e) {
 			
-			 System.out.println("Can not divide by zero");
+			 System.out.println("Number cannot be devide by zero");
 	}
 		catch(Exception e) {
 			
