@@ -1,3 +1,24 @@
+/*
+
+  Q2. 	After mentioning to Professor Jackson that you would like to get some more practice with exceptions, she offered to let you write some grading software! Before she gives you full control over auto-grading students’ work, she asked if you could write a function called checkFileExtension(). 
+
+	The checkFileExtension() method takes in one parameter: fileName.
+
+	checkFileExtension() should return an integer representing the number of points a student receives for properly submitting a file in Java. 
+
+	If a student’s submitted file ends in .java, they get 1 point. 
+
+	If a student’s submitted file doesn’t end in .java, they get 0 points. 
+
+	If the file submitted is null or an empty string, an exception should be thrown and you should give the student -1 points. 
+
+	What kind of exception is up to you, including to a custom exception!
+
+	In main(), Professor Jackson has provided a array of students and the names of their submitted files for you to test out your work. 
+
+	If an exception is caught, make sure to print out the error message.
+*/
+
 package com.exception.bll;
 
 public class CheckFileExtensionClass {
